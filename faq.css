@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.faq{
+    height:40px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.type{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.type textarea{
+    height: 150px;
+    width: 70%;
+    size: 70px;
+    margin:20px ;
+    position: static ;
+}

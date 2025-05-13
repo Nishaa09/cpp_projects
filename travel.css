@@ -1,0 +1,197 @@
+*{
+    margin:0px;
+    padding: 0px;
+    border: border-box;
+}
+
+.navbar{
+    height:40px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    background-color: rgb(13, 122, 51);
+    margin: 0 40px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: beige;
+}
+.logo a{
+    font-size: 20px;
+    cursor: pointer;
+    color: beige;
+    text-decoration: none;
+}
+.logo:active{
+    color:aqua;
+}
+.main{
+    height: 30px;
+    width: 85%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    
+}
+.main ul{
+    list-style: none;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    
+}
+.main ul li {
+    padding: 0 15px;
+
+}
+.main a{
+    text-decoration: none;
+    font-size: 0.85rem;
+    color: beige;
+    font-weight:500;
+    cursor: pointer;
+}
+.main a:active{
+    color:aqua;
+
+}
+.menu i{
+    font-size: 20px ;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+.hero{
+    height:500px;
+    background-image: url("hero_travel.jpg");
+    background-size: cover;
+    margin:0 40px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.content{
+    height: 130px;
+    width: 60%;
+    padding-left: 50px;
+    padding-top: 150px;
+}
+.content p{
+    font-size: 60px;
+    color: beige;
+}
+.info{
+    color: beige;
+    padding-left: 50px;
+    margin-top: 10px;
+    
+} 
+.booking button{
+    margin-left: 50px;
+    margin-top: 10px;
+    background-color: beige;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:10%;
+    font-size: 15px;
+    padding: 7px;
+    cursor: pointer;
+    border:none;
+    
+    
+}
+.button:hover{
+    color:aqua;
+}
+
+.booking a{
+    font-size: 15px;
+    background-color: beige;
+    color: #000;
+    text-decoration: none;
+}
+.start{
+
+    margin:0 40px;
+}
+.start h1{
+    font-size: 50px;
+}
+.facilities{
+    margin:0 40px;
+    height:150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(13, 122, 51);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color:beige ;
+    margin-top: 20px;
+}
+.facilities div{
+    height:100px;
+    width: 20%;
+    text-align: center;
+    margin:0 40px;
+}
+.facilities i{
+    font-size: 20px;
+}
+.choose{
+    margin:0 40px;
+    text-align: center;
+}
+.choose h1{
+    font-size: 50px;
+    margin-top: 20px;
+}
+.tours{
+    height:250px;
+    margin:20px 40px 0px 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.tours div{
+    height: 250px;
+    width:20%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    
+}
+
+.tours div:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease-out;
+    cursor: pointer;
+}
+
+.tours div div{
+    height: 80%;
+    width: 100%;
+    background-size: cover;
+    border-radius:20px ;
+}
+
+.see-all{
+    height:40px;
+    margin:20px 40px;
+    display: flex;
+    justify-content: center;
+}
+.see-all button{
+    height: 40px;
+    width: 90px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    background-color:rgb(13, 122, 51);
+    color: beige;
+    text-align: center;
+    font-weight: 700;
+    cursor: pointer;
+}
+html {
+    scroll-behavior: smooth;
+  }
